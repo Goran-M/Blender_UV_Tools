@@ -151,7 +151,7 @@ class UDIM_OT_export_wireframes(bpy.types.Operator):
             bpy.ops.uv.export_layout(
                 filepath=filepath,
                 size=(self.resolution, self.resolution),
-                opacity=1.0,
+                opacity=0.0,
                 mode=self.export_format
             )
 
